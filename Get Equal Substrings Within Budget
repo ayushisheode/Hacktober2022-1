@@ -21,6 +21,7 @@ class Solution {
         max_len = Math.max(max_len,subarray_end - subarray_start);
         }
     
+         System.out.print(max_len);
        
         return max_len;
     }
